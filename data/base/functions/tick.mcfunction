@@ -8,3 +8,4 @@ execute as @a[nbt=!{SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball"
 execute as @a[nbt=!{SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball"}}}] run kill @e[tag=pnj]
 execute as @a[nbt=!{SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball"}}}] run scoreboard players set @s detect2 0
 execute as @a[scores={cooldown=1..3},nbt={SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball"}}}] if entity @s run title @s actionbar ["",{"text":"Cooldown : ","color": "green"},{"score":{"name":"@s","objective":"cooldown"},"color": "red"}]
+say spam
