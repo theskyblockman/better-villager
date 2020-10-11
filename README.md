@@ -3,5 +3,5 @@
 crée par theskyblockman
 
 Items Customs :
-
-  give @p blaze_rod
+  sort de fireball:
+    /give theskyblockman minecraft:blaze_rod{spell:"fireball"}
