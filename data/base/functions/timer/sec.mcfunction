@@ -1,2 +1,2 @@
-scoreboard players operation @a[scores={cooldown=1..3}] cooldown -= 1 cooldown
+scoreboard players operation @a[scores={cooldownlvl1=1..3}] cooldownlvl1 -= 1 cooldownlvl1
 schedule function base:timer/sec 1s
