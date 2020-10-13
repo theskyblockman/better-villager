@@ -16,3 +16,4 @@ title @a[scores={cooldownlvl1=1..3}] actionbar [{"text": "Temps de recharge : ",
 
 # regeneration
 
+#test
