@@ -1,6 +1,6 @@
 execute at @a[scores={detect3=0,cooldownlvl2=0},nbt={SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball",level:2}}}] unless entity @e[type=fireball,tag=firespell2,limit=1,distance=..4] run function base:fireball_stick/lvl2/summon
 
-execute as @a[scores={detect3=0..1,cooldownlvl2=0},nbt={SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball",level:2}}}] at @s if entity @e[type=fireball,tag=firespell2,limit=1,distance=..4] run title @s actionbar {"text":"merci de tirer votre première boule de feu pour en lancer une autre","color": "red"}
+execute as @a[scores={detect3=0..1,cooldownlvl2=0},nbt={SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball",level:2}}}] at @s if entity @e[type=fireball,tag=firespell2,limit=1,distance=..4] run title @s actionbar {"text":"Merci de tirer votre première boule de feu avant d'en lancer une nouvelle.","color": "red"}
 
 execute as @a[scores={cooldownlvl2=0,detect3=1},nbt={SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball",level:2}}}] at @s if entity @e[tag=firespell2,type=fireball,distance=..4] run title @s actionbar [{"text": "Temps de recharge : ","color": "green"},{"text":"Prêt","color": "red"}]
 
