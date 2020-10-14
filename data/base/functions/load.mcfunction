@@ -16,3 +16,4 @@ scoreboard players set @a cooldownlvl2 0
 team add collision
 team modify collision collisionRule never
 scoreboard players set 1 cooldownlvl1 1
+scoreboard players set 1 cooldownlvl2 1
