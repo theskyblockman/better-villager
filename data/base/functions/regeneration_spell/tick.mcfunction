@@ -4,3 +4,5 @@ execute as @e[scores={detect10=1..},nbt={Inventory:[{Slot: -106b, tag:{spell:"re
 execute at @e[tag=pnj4] at @a[sort=nearest,scores={detect11=1..}] run tp @e[type=villager,tag=pnj4] ~ ~1 ~
 team join collision @e[tag=pnj4]
 execute as @a[scores={cooldownlvl4=1..7}] run title @s actionbar [{"text": "Temps de recharge : ","color": "green"},{"score":{"name":"@s","objective":"cooldownlvl4"},"color": "red"}]
+
+# ee

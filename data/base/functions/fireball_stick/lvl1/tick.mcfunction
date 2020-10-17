@@ -24,4 +24,4 @@ title @a[scores={cooldownlvl1=0,detect2=1},nbt={SelectedItem:{id:"minecraft:blaz
 
 
 
-# regeneration
+# regenerationee
