@@ -1,0 +1,2 @@
+execute as @a[scores={milkbucket=1..}] run tellraw @s ["",{"text":"tu aimes le lait ? va t'abonner à boitameu "},{"text":"ici","bold":true,"underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://www.twitch.tv/boitameu"}}]
+execute as @a[scores={milkbucket=1..}] run scoreboard players set @s milkbucket 0

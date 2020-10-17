@@ -5,6 +5,7 @@ execute as @a[scores={detect3=0..1,cooldownlvl2=0},nbt={SelectedItem:{id:"minecr
 execute as @a[scores={cooldownlvl2=0,detect3=1},nbt={SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball",level:2}}}] at @s if entity @e[tag=firespell2,type=fireball,distance=..4] run title @s actionbar [{"text": "Temps de recharge : ","color": "green"},{"text":"Prêt","color": "red"}]
 
 execute as @a[scores={cooldownlvl2=1..3}] at @s run particle flame ~ ~1 ~ 0.0 0.0 0.0 0.06 1 normal
+execute as @a[scores={cooldownlvl2=1..3}] at @s run particle minecraft:lava ^ ^ ^3 0 0 0 0.5 2 normal
 
 execute as @a[scores={detect3=0,cooldownlvl2=0},nbt={SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball",level:2}}}] at @s if entity @e[type=fireball,tag=firespell2,limit=1,distance=..4] run function base:fireball_stick/lvl2/kill
 execute at @a[scores={detect3=1..},nbt=!{SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball",level:2}}}] run function base:fireball_stick/lvl2/kill

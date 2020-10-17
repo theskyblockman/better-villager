@@ -11,6 +11,8 @@ scoreboard objectives add detect1 minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add detect4 minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add detect6 minecraft.custom:minecraft.talked_to_villager
 
+scoreboard objectives add milkbucket minecraft.used:minecraft.milk_bucket
+
 scoreboard players set @a detect1 0
 scoreboard players set @a detect2 0
 scoreboard players set @a detect3 0
