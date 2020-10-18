@@ -19,6 +19,8 @@ execute as @a[limit=1,nbt={SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fi
 title @a[scores={cooldownlvl1=1..3},predicate=!base:sneak] actionbar [{"text": "Temps de recharge : ","color": "green"},{"score":{"name":"@a[scores={cooldownlvl1=1..3},limit=1]","objective":"cooldownlvl1"},"color": "red"}]
 title @a[scores={cooldownlvl1=0,detect2=1},nbt={SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball",level:1}}},predicate=!base:sneak] actionbar [{"text": "Temps de recharge : ","color": "green"},{"text":"Prêt","color": "red"}]
 
+
+execute at @a[scores={detect2=1..,cooldownlvl1=0},limit=1,nbt={SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball",level:1}}},predicate=!base:sneak] unless entity @e[tag=pnj1,distance=..5] run summon minecraft:villager ~ ~4 ~ {Tags:["pnj1"],Profession:0,Career:1,CareerLevel:42,PersistenceRequired:1,NoAI:1,Silent:1,Invulnerable:1,Attributes:[{Name:"generic.knockback_resistance",Base:"1f"},{Name:"generic.movement_speed",Base:"0f"},{Name:"generic.max_health",Base:99999}],Offers:{Recipes:[]},ActiveEffects:[{Id:14,Amplifier:200,Duration:200000000,ShowParticles:0b}]}
   #lvl 2 detect3=dummy detect4=damage_dealth  @a[nbt=!{SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball",level:2}}}
 
 
