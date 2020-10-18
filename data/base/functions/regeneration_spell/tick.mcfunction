@@ -7,3 +7,7 @@ execute at @e[tag=pnj4] at @a[sort=nearest,scores={detect11=1..}] run tp @e[type
 team join collision @e[tag=pnj4]
 execute as @a[scores={cooldownlvl4=1..10},predicate=base:sneak] run title @s actionbar [{"text": "Temps de recharge : ","color": "green"},{"score":{"name":"@s","objective":"cooldownlvl4"},"color": "red"}]
 execute as @a[scores={cooldownlvl4=0},predicate=base:sneak] run title @s actionbar [{"text": "Temps de recharge : ","color": "green"},{"text": "Prêt","color": "red"}]
+
+scoreboard players set @a[scores={detect11=1..},predicate=base:sneak] detect1 0
+scoreboard players set @a[scores={detect11=1..},predicate=base:sneak] detect4 0
+scoreboard players set @a[scores={detect11=1..},predicate=base:sneak] detect6 0
