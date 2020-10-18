@@ -11,3 +11,4 @@ execute as @a[scores={cooldownlvl4=0},predicate=base:sneak] run title @s actionb
 scoreboard players set @a[scores={detect11=1..},predicate=base:sneak] detect1 0
 scoreboard players set @a[scores={detect11=1..},predicate=base:sneak] detect4 0
 scoreboard players set @a[scores={detect11=1..},predicate=base:sneak] detect6 0
+scoreboard players set @a[scores={detect11=1..},predicate=!base:sneak] detect10 0
