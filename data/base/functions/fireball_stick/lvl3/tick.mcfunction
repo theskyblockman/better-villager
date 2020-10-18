@@ -24,7 +24,9 @@ execute at @a[scores={detect5=1..,cooldownlvl3=0},limit=1,nbt={SelectedItem:{id:
 
   #lvl 2 detect3=dummy detect4=damage_dealth  @a[nbt=!{SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball",level:2}}}
 
-
+execute as @a[scores={detect5=1..}] run scoreboard players set @s detect4 0
+execute as @a[scores={detect5=1..}] run scoreboard players set @s detect1 0
+execute as @a[scores={detect5=1..}] run scoreboard players set @s detect10 0
 
 
 # regeneration
