@@ -10,4 +10,4 @@ il y aura un craft pour l'upgrade
     give @p slime_ball{spell: "regeneration"}
 
 
-doc : [ici](https://docs.google.com/document/d/1lSMdjs0sRBNIsH-ewsHqaTeD_8wk33XCEXl-c_JFWRw/edit, target="_BLANK")
+doc : [ici](https://docs.google.com/document/d/1lSMdjs0sRBNIsH-ewsHqaTeD_8wk33XCEXl-c_JFWRw/edit)
