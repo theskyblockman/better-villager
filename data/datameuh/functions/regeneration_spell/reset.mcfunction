@@ -1,3 +1,5 @@
+# type = manuelle, id = datameuh:regeneration_spell/reset
+
 scoreboard players set @s cooldownlvl4 7
 scoreboard players set @s detect10 0
 kill @e[type=villager,tag=pnj4,distance=..5,limit=1]

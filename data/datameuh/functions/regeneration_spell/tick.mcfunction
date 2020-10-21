@@ -1,3 +1,5 @@
+# type = tick, id = datameuh:regeneration_spell/tick
+
 execute as @a[limit=1,nbt={Inventory:[{Slot: -106b, tag:{spell:"regeneration"}}]},scores={detect11=0,cooldownlvl4=0},predicate=datameuh:sneak] if entity @s at @s run function datameuh:regeneration_spell/summon
 execute as @a[limit=1,nbt=!{Inventory:[{Slot: -106b, tag:{spell:"regeneration"}}]},scores={detect11=1..}] if entity @s at @s run function datameuh:regeneration_spell/kill
 execute as @a[predicate=!datameuh:sneak,limit=1,nbt={Inventory:[{Slot: -106b, tag:{spell:"regeneration"}}]},scores={detect11=1..}] run function datameuh:regeneration_spell/kill

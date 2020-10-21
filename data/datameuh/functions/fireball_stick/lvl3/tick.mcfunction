@@ -1,3 +1,5 @@
+# type = tick, id = datameuh:fireball_stick/lvl3/tick
+
 execute at @a[scores={detect5=0,cooldownlvl3=0},nbt={SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball",level:3}}},predicate=!datameuh:sneak] unless entity @e[type=fireball,tag=firespell3,limit=1,distance=..4] run function datameuh:fireball_stick/lvl3/summon
 
 execute as @a[scores={detect5=0..1,cooldownlvl3=0},nbt={SelectedItem:{id:"minecraft:blaze_rod",tag:{spell:"fireball",level:3}}},predicate=!datameuh:sneak] at @s if entity @e[type=fireball,tag=firespell3,limit=1,distance=..4] run title @s actionbar {"text":"merci de tirer votre première boule de feu pour en lancer une autre","color": "red"}

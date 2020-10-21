@@ -1,3 +1,5 @@
+# type = manuelle, id = datameuh:fireball_stick/lvl1/reset
+
 scoreboard players set @s cooldownlvl1 3
 scoreboard players set @s detect1 0
 kill @e[type=villager,tag=pnj1,distance=..5,limit=1]

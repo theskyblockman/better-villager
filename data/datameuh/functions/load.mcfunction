@@ -1,3 +1,5 @@
+# type = load, id = datameuh:load
+
 tellraw @a [{"text": "[datameuh]","color": "red"},{"text": " le datapack à bien été reload","color": "green"}]
 scoreboard objectives add detect2 dummy
 scoreboard objectives add detect3 dummy
@@ -15,6 +17,8 @@ scoreboard objectives add detect6 minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add detect10 minecraft.custom:minecraft.talked_to_villager
 
 scoreboard objectives add milkbucket minecraft.used:minecraft.milk_bucket
+
+scoreboard objectives add carrotonastick minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard players set @a detect1 0
 scoreboard players set @a detect2 0
