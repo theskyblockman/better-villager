@@ -1,7 +1,5 @@
 # items
 
-# crée par theskyblockman
-
 # sort de fireball:
 il y aura un craft pour l'upgrade
   # lvl 1:
@@ -10,3 +8,6 @@ il y aura un craft pour l'upgrade
     give @p blaze_rod{spell:"fireball",level:2,display:{Name:'[{"text":"Bâton de mage mineur","italic":false,"color":"dark_green"}]',Lore:['[{"text":"Arme magique","italic":true,"color":"aqua"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"Clique droit, lance trois ","italic":true,"color":"light_purple"},{"text":"boules de feu de niveau 1","color":"dark_purple","bold":true},{"text":"","color":"dark_purple","bold":false}]','[{"text":"temps de recharge 2 secondes.","italic":true,"color":"dark_purple"}]']}} 1
   # sort de régénération (1 lvl):
     give @p slime_ball{spell: "regeneration"}
+
+
+doc : [ici](https://docs.google.com/document/d/1lSMdjs0sRBNIsH-ewsHqaTeD_8wk33XCEXl-c_JFWRw/edit)
