@@ -26,4 +26,5 @@ il y aura un craft pour l'upgrade
     * ```/give @p minecraft:leather_helmet{Unbreakable:1,HideFlags:2,AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Slot:"head",Amount:+0.5,Operation:0,UUID:[I;1033476418,1019467211,1032227043,1395623159]}]} 1```
  
 
-doc : [ici](https://docs.google.com/document/d/1lSMdjs0sRBNIsH-ewsHqaTeD_8wk33XCEXl-c_JFWRw/edit)
+doc : [ici](https://docs.google.com/document/d/1lSMdjs0sRBNIsH-ewsHqaTeD_8wk33XCEXl-c_JFWRw/edit)  
+excel : [ici](https://docs.google.com/spreadsheets/d/1VErN-AzXbl6qbe64mruJWHDKQ1tZ2htArk2oWT1ftbY/edit#gid=0)  
