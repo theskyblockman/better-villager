@@ -10,6 +10,7 @@ scoreboard objectives add cooldownlvl1 dummy
 scoreboard objectives add cooldownlvl2 dummy
 scoreboard objectives add cooldownlvl3 dummy
 scoreboard objectives add cooldownlvl4 dummy
+scoreboard objectives add cooldownlvl5 dummy
 
 scoreboard objectives add detect1 minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add detect4 minecraft.custom:minecraft.talked_to_villager
@@ -33,6 +34,7 @@ scoreboard players set @a cooldownlvl1 0
 scoreboard players set @a cooldownlvl2 0
 scoreboard players set @a cooldownlvl3 0
 scoreboard players set @a cooldownlvl4 0
+scoreboard players set @a cooldownlvl5 0
 
 team add collision
 team modify collision collisionRule never
