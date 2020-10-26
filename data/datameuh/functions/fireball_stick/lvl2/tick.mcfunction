@@ -29,5 +29,6 @@ execute at @a[scores={detect3=1..,cooldownlvl2=0},limit=1,nbt={SelectedItem:{id:
 execute as @a[scores={detect3=1..}] run scoreboard players set @s detect1 0
 execute as @a[scores={detect3=1..}] run scoreboard players set @s detect6 0
 execute as @a[scores={detect3=1..}] run scoreboard players set @s detect10 0
+execute as @a[scores={detect3=1..}] run scoreboard players set @s carrotonastick 0
 
 # regeneration
