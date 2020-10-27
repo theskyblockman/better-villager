@@ -11,6 +11,7 @@ scoreboard objectives add cooldownlvl2 dummy
 scoreboard objectives add cooldownlvl3 dummy
 scoreboard objectives add cooldownlvl4 dummy
 scoreboard objectives add cooldownlvl5 dummy
+scoreboard objectives add cooldownlvl6 dummy
 
 scoreboard objectives add detect1 minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add detect4 minecraft.custom:minecraft.talked_to_villager
@@ -20,6 +21,7 @@ scoreboard objectives add detect10 minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add milkbucket minecraft.used:minecraft.milk_bucket
 
 scoreboard objectives add carrotonastick minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add carrotonastick2 minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard players set @a detect1 0
 scoreboard players set @a detect2 0
@@ -35,11 +37,9 @@ scoreboard players set @a cooldownlvl2 0
 scoreboard players set @a cooldownlvl3 0
 scoreboard players set @a cooldownlvl4 0
 scoreboard players set @a cooldownlvl5 0
+scoreboard players set @a cooldownlvl6 0
 
 team add collision
 team modify collision collisionRule never
 
 scoreboard players set 1 cooldownlvl1 1
-scoreboard players set 1 cooldownlvl2 1
-scoreboard players set 1 cooldownlvl3 1
-scoreboard players set 1 cooldownlvl4 1
