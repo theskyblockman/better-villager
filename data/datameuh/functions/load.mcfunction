@@ -23,6 +23,12 @@ scoreboard objectives add milkbucket minecraft.used:minecraft.milk_bucket
 scoreboard objectives add carrotonastick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add carrotonastick2 minecraft.used:minecraft.carrot_on_a_stick
 
+scoreboard objectives add killer minecraft.custom:minecraft.player_kills
+scoreboard objectives add killed minecraft.custom:minecraft.deaths
+
+scoreboard objectives add freeze minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add lifetime dummy
+
 scoreboard players set @a detect1 0
 scoreboard players set @a detect2 0
 scoreboard players set @a detect3 0
@@ -43,3 +49,4 @@ team add collision
 team modify collision collisionRule never
 
 scoreboard players set 1 cooldownlvl1 1
+gamerule showDeathMessages false
