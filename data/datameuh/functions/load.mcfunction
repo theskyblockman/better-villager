@@ -29,6 +29,8 @@ scoreboard objectives add killed minecraft.custom:minecraft.deaths
 scoreboard objectives add freeze minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add lifetime dummy
 
+scoreboard objectives add repair_point dummy [{"text":"r","color":"red"},{"text":"e","color":"#ec3f50"},{"text":"p","color":"#db3e61"},{"text":"a","color":"#c93f73"},{"text":"i","color":"#b83f84"},{"text":"r ","color":"#a73f95"},{"text":"p","color":"#953fa7"},{"text":"o","color":"#843fb8"},{"text":"i","color":"#733fc9"},{"text":"n","color":"#613fdb"},{"text":"t","color":"#503fec"},{"text":"s","color":"blue"}]
+
 scoreboard players set @a detect1 0
 scoreboard players set @a detect2 0
 scoreboard players set @a detect3 0
