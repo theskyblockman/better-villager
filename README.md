@@ -24,6 +24,9 @@ il y aura un craft pour l'upgrade
     * ```/give @p minecraft:leather_leggings{Unbreakable:1,HideFlags:2,AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Slot:"legs",Amount:+0.5,Operation:0,UUID:[I;1033476418,1019467211,1032227043,1395623159]}]} 1```
     * ```/give @p minecraft:leather_chestplate{Unbreakable:1,HideFlags:2,AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Slot:"chest",Amount:+0.5,Operation:0,UUID:[I;1033476418,1019467211,1032227043,1395623159]}]} 1```
     * ```/give @p minecraft:leather_helmet{Unbreakable:1,HideFlags:2,AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Slot:"head",Amount:+0.5,Operation:0,UUID:[I;1033476418,1019467211,1032227043,1395623159]}]} 1```
+
+> table de réparation
+  * ```/give @p enderman_spawn_egg{EntityTag:{id:"minecraft:area_effect_cloud",Tags:["summon_crafting_table"]}}```
  
 
 doc : [ici](https://docs.google.com/document/d/1lSMdjs0sRBNIsH-ewsHqaTeD_8wk33XCEXl-c_JFWRw/edit)  
