@@ -54,3 +54,6 @@ scoreboard players set 1 cooldownlvl1 1
 gamerule showDeathMessages false
 
 # génération auto.
+scoreboard objectives add trigger_1 trigger
+
+scoreboard objectives add trigger_2 trigger
