@@ -63,3 +63,5 @@ scoreboard objectives add trigger_1 trigger
 scoreboard objectives add trigger_0 trigger
 
 scoreboard objectives add trigger_1 trigger
+
+scoreboard objectives add trigger_0 trigger
