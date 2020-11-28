@@ -48,9 +48,9 @@ while running:
         finishp1, finishp2, finishp1t))
 
     try:
-        with open("../datameuh/functions/reparation_table/tick.mcfunction", "a", encoding="utf-8") as f:
+        with open("../../datameuh/functions/reparation_table/tick.mcfunction", "a", encoding="utf-8") as f:
             f.write(f"\n{finishp2}\n{finishp1}\n{str(finishp1t)}")
-        with open("../datameuh/functions/load.mcfunction", "a", encoding="utf-8") as f:
+        with open("../../datameuh/functions/load.mcfunction", "a", encoding="utf-8") as f:
             f.write(finishp1t2)
     except:
         with open("data/datameuh/functions/reparation_table/tick.mcfunction", "a", encoding="utf-8") as f:
