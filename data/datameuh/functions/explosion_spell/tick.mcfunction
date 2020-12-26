@@ -1,5 +1,0 @@
-execute as @a[scores={carrotonastick2=1..,cooldownlvl6=0},nbt={Inventory:[{Slot: -106b,tag: {spell:"explosion"}}]},predicate=datameuh:sneak,limit=1] if entity @s at @s run function datameuh:explosion_spell/reset
-execute as @a[scores={carrotonastick2=1..},nbt={Inventory:[{Slot: -106b,tag: {spell:"explosion"}}]},predicate=!datameuh:sneak,limit=1] if entity @s run scoreboard players set @s carrotonastick2 0
-scoreboard players set @a[scores={cooldownlvl6=1..}] carrotonastick2 0
-execute as @a[scores={cooldownlvl6=1..10},nbt={Inventory:[{Slot: -106b,tag: {spell:"explosion"}}]},predicate=datameuh:sneak,limit=1] if entity @s run title @s actionbar [{"text": "Temps de recharge : ","color": "green"},{"score":{"name":"@a[scores={cooldownlvl6=1..5},limit=1]","objective":"cooldownlvl6"},"color": "red"}]
-execute as @a[scores={cooldownlvl6=0},nbt={Inventory:[{Slot: -106b,tag: {spell:"explosion"}}]},predicate=datameuh:sneak,limit=1] if entity @s run title @s actionbar [{"text": "Temps de recharge : ","color": "green"},{"text": "Prêt","color": "red"}]
