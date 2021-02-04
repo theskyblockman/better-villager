@@ -14,6 +14,15 @@ execute if data block ~ ~3 ~ Items[{Slot: 5b}] run data modify entity @e[type=vi
 execute if data block ~ ~3 ~ Items[{Slot: 6b}] run data modify entity @e[type=villager,sort=nearest,limit=1] Offers.Recipes[6].buy set from block ~ ~3 ~ Items[{Slot: 6b}]
 execute if data block ~ ~3 ~ Items[{Slot: 7b}] run data modify entity @e[type=villager,sort=nearest,limit=1] Offers.Recipes[7].buy set from block ~ ~3 ~ Items[{Slot: 7b}]
 
+execute if data block ~ ~3 ~ Items[{Slot: 9b}] run data modify entity @e[type=villager,sort=nearest,limit=1] Offers.Recipes[0].buyB set from block ~ ~3 ~ Items[{Slot: 9b}]
+execute if data block ~ ~3 ~ Items[{Slot: 10b}] run data modify entity @e[type=villager,sort=nearest,limit=1] Offers.Recipes[1].buyB set from block ~ ~3 ~ Items[{Slot:10b}]
+execute if data block ~ ~3 ~ Items[{Slot: 11b}] run data modify entity @e[type=villager,sort=nearest,limit=1] Offers.Recipes[2].buyB set from block ~ ~3 ~ Items[{Slot:11b}]
+execute if data block ~ ~3 ~ Items[{Slot: 12b}] run data modify entity @e[type=villager,sort=nearest,limit=1] Offers.Recipes[3].buyB set from block ~ ~3 ~ Items[{Slot:12b}]
+execute if data block ~ ~3 ~ Items[{Slot: 13b}] run data modify entity @e[type=villager,sort=nearest,limit=1] Offers.Recipes[4].buyB set from block ~ ~3 ~ Items[{Slot:13b}]
+execute if data block ~ ~3 ~ Items[{Slot: 14b}] run data modify entity @e[type=villager,sort=nearest,limit=1] Offers.Recipes[5].buyB set from block ~ ~3 ~ Items[{Slot:14b}]
+execute if data block ~ ~3 ~ Items[{Slot: 15b}] run data modify entity @e[type=villager,sort=nearest,limit=1] Offers.Recipes[6].buyB set from block ~ ~3 ~ Items[{Slot:15b}]
+execute if data block ~ ~3 ~ Items[{Slot: 16b}] run data modify entity @e[type=villager,sort=nearest,limit=1] Offers.Recipes[7].buyB set from block ~ ~3 ~ Items[{Slot:16b}]
+
 execute if data block ~ ~3 ~ Items[{Slot: 18b}] run data modify entity @e[type=villager,sort=nearest,limit=1] Offers.Recipes[0].sell set from block ~ ~3 ~ Items[{Slot: 18b}]
 execute if data block ~ ~3 ~ Items[{Slot: 19b}] run data modify entity @e[type=villager,sort=nearest,limit=1] Offers.Recipes[1].sell set from block ~ ~3 ~ Items[{Slot: 19b}]
 execute if data block ~ ~3 ~ Items[{Slot: 20b}] run data modify entity @e[type=villager,sort=nearest,limit=1] Offers.Recipes[2].sell set from block ~ ~3 ~ Items[{Slot: 20b}]
